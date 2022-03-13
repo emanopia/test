@@ -1,0 +1,17 @@
+h1 {
+  color: rgba(55, 0, 255, 0.5); background-color: antiquewhite; border: 1px ; border-color: rgba(32, 140, 241, 0.356);
+border-style: dashed;  }
+body { color: #133bec;
+  padding: 50px 50px;
+  margin-left: 30vw;
+}
+html {
+  background-color: rgba(216, 148, 176, 0.055);
+}
+button {background-color: blanchedalmond
+    ; color: rgb(255, 30, 0) ; padding: 10px 20px ;
+border: radius 5px;
+}
+button:hover{
+    color: rgba(18, 185, 26, 0.788);
+}

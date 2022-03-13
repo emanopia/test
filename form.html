@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+
+    <link rel="stylesheet" href="./formstyle.css" />
+    <h1>Please enter your data</h1>
+  </head>
+
+  <body>
+    <!-- <audio  controls au>
+        <source src="/programming/media/f.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio> -->
+    <form action="">
+      <div>
+        <label for="Name"> Name </label>
+        <input
+          type="text"
+          id="Name"
+          placeholder="Enter your name "
+          name="Name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Email"> Email </label>
+        <input type="email" id="Email" placeholder="ex : a****@mail.com" />
+      </div>
+      <br />
+      <div>
+        <label for="password"> Password </label>
+        <input type="password" id="password " name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="massage"> massage </label>
+        <br />
+        <textarea
+          name="massage"
+          id="massage"
+          cols="20"
+          rows="5"
+          placeholder="write your qualification "
+        ></textarea>
+      </div>
+      <div>
+        <h3>Gender</h3>
+        <select name="Gender" id="Gender">
+          <option value="male">Male</option>
+          <option value="female">female</option>
+        </select>
+      </div>
+      <div>
+        <label for="phone number "> Age </label>
+        <input type="number" id="phonenumber" />
+      </div>
+      <div>
+        <label for="date"> Date </label>
+        <input type="date" id="date" />
+      </div>
+      <div>
+        <h3>chose</h3>
+        <input type="radio" name="level1" id="level1" />
+        <label for="level1 "> المستوي الاول</label>
+        <br />
+        <input type="radio" name="level1" id="level1" />
+        <label for="level1 "> المستوي الثاني</label>
+        <br />
+        <input type="radio" name="level1" id="level1" />
+        <label for="level1 "> المستوي الثالث</label>
+      </div>
+      <div>
+        <h3>Check this</h3>
+        <input type="checkbox" name="level1" id="level1" />
+        <label for="level1 "> المستوي الاول</label>
+        <br />
+        <input type="checkbox" name="level1" id="level1" />
+        <label for="level1 "> المستوي الثاني</label>
+        <br />
+        <input type="checkbox" name="level1" id="level1" />
+        <label for="level1 "> المستوي الثالث</label>
+      </div>
+      <button>Submit</button>
+    </form>
+    <audio controls autoplay>
+      <source
+        src="Hla Roshdy - Ana Ebn Masr _ اغنية هلا رشدي - انا ابن مصر و انت تقدر محمود العسيلى و مصطفى حجاج by MW (128  kbps) (abdwap2.com).mp3"
+        type="audio/mp3"
+      />
+    </audio>
+  </body>
+</html>
